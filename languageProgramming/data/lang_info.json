@@ -1,0 +1,78 @@
+{
+    "JavaScript":
+    {
+        "info": "Not to be confused with Java, JavaScript is the programming language of the Web. These days almost every web page you use daily employs some elements of JavaScript. That being said, it’s one of the most popular web development languages and among the most powerful programming languages out there – therefore being an excellent skill to possess in the job market. Different frameworks and libraries – such as AngularJS and jQuery or React, respectively – make using JavaScript for front-end development even more efficient and interesting.",
+        "user": "React<br> Angular<br> JQuery<br> npm"
+    },
+    "Java":
+    {
+        "info": "Java is definitely one of the most popular programming languages in the world. Currently Java is the most commonly searched programming language on search engines. Fundamentals of Java stem from C++, taking them a bit further and making the language easier to use. Java is very popular across all platforms, operating systems, and devices due to its versatility and flexibility. That also makes it one of the most in demand and highest paying programming languages you can learn.",
+        "user": "Spring<br> Tomcat<br> Mybatis<br>"
+    },
+    "Python":
+    {
+        "info": "Python is definitely one of the most versatile programming language with its diverse applications. Thus, it offers the tools for a plethora of different purposes. Python can be used for data mining and visualisation, web applications, or game development, etc. There are lots of useful libraries created for Python facilitating its use in the academic and educational fields, such as matplotlib, pandas, and pyGal. Thanks to its simple and easily readable syntax, Python is one of the best suited programming languages for beginners!",
+        "user": "Django <br> Flask<br> Openstack<br>"
+    },
+    "Objective-C":
+    {
+        "info": "Objecive-C is the primary language by Apple for developing programs for Mac OS X and iOS. First developed in the ’80s, it gained popularity along the iOS. It’s a very powerful and flexible language, based on the C language.  However, it’s received some criticism for being somewhat difficult to learn for beginners.",
+        "user": "Fmdb <br> Realm-cocoa <br> Hackiftekhar<br>"
+    },
+    "Swift":
+    {
+        "info": "Back in 2014, Apple developed their own programming language now known as Swift, which is aimed at iOS and OS X developers. Considering the huge demand in the mobile app market, it was no surprise that Swift quickly became very popular. It scales nicely and it’s fast. Furthermore, Swift is heavily influenced by Ruby and Python, hence it’s very beginner-friendly and easy to use. However, since it’s somewhat of a freshman compared to other languages, the support community for Swift might be a bit smaller than for the more established languages in the bunch. But like with any other language, it’s just a matter of time.",
+        "user": "Btrn <br> Realm <br> Reactive <br>"
+    },
+    "PHP":
+    {
+        "info": "PHP is a scripting language running on the server side used to create web pages written in HTML. It’s a relatively easy language to use for new developers, making it one of the most popular programming languages out there. In fact, 80% of the top 10 million websites currently use PHP. Being a server-side language just like Python or Perl are, PHP can do things such as creating login pages, photo galleries, discussion forums, and much more. Websites employing PHP include some lovely treats we all are familiar with, like WordPress, Facebook, and Tumblr.",
+        "user": "Laravel <br> Symfony <br> Faker <br> Composer"   
+    },
+    "Ruby":
+    {
+        "info": "Ruby is a very high-level, multi-purpose programming language which is definitely one of the most fun languages to work with. Contrary to some other languages, Ruby is flexible when it comes to solving a specific problem. There will usually be more than one “best” way for finding a good solution for it. Learning Ruby will definitely reward you with a steep learning curve and seeing results fairly quickly. For instance, you can build a web application from scratch surprisingly fast using the Ruby on Rails framework. This has made Ruby a popular language among smaller companies, startups, and coding newbies.",
+        "user": "Rails <br> Jekyll <br> Gitlabhq <br> Homwbrew"
+    },
+    "CPP":
+    {
+        "info": "Based on C, it’s a powerful, high-performance language, but rather lower-level. That means that you will need to understand more complex and fundamental aspects of programming, such as memory management. On the other hand, having all this control makes C++ very scalable. Apps that are very resource-intensive are often built with C++, such as some of the most beautiful 3D games out there. Once you get things going, the applications of C++ are pretty diverse in nature. You can create computer software, mobile apps, game engines and games, or web applications with it.",
+        "user": "Mongodb <br> Retihinkdb <br>"
+    },
+    "C":
+    {
+        "info": "The great-grandmother of all programming languages. During the past decades, it has become one of the most widely used programming languages ever to exist. It’s used for creating a variety of programs for computers, such as operating systems, for instance. More importantly, what’s great about it is that it gives you an excellent starting point for learning and understanding other programming languages later on. Being such a strong and resilient player in the industry, C has had a strong influence on several other programming languages. These include C# and C++, Java, JavaScript, PHP, and Python, for instance.",
+        "user": "Redis <br> Git <br> Vim <br> Curl"
+    },
+    "Shell":
+    {
+        "info": "Shell script is a computer program designed to be run by the Unix shell, a command-line interpreter.[1] The various dialects of shell scripts are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text. A script which sets up the environment, runs the program, and does any necessary cleanup, logging, etc. is called a wrapper.",
+        "user": "Oh-my-zsh <br> fish-shell <br> ph-hole"
+    },
+    "Go":
+    {
+        "info": "at Google[11] attempted to gracefully handle the challenges that large organizations face. [10] It is a compiled, statically typed language in the tradition of C, and seek to reduce the mental overhead that a programming language requires and to reduce compile times. Go emphasizes simplicity and clarity in its code so that it’s easier to understand and maintain. At the same time, Go incorporates powerful features that allow very sophisticated applications to be built.",
+        "user": "Kubernetes <br> Moby <br> Gohu"
+    },
+    "HTML":
+    {
+        "info":"Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.[4] Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document. HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML can embed programs written in a scripting language such as JavaScript which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content.",
+        "user":"Pure <br> Webfundamentals <br> requests-html"
+    },
+    "CSS":
+    {
+        "info":"Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.[1] Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications. CSS is designed primarily to enable the separation of presentation and content, including aspects such as the layout, colors, and fonts. Separation of formatting and content makes it possible to present the same markup page in different styles for different rendering methods, such as on-screen, in print. Changes to the graphic design of a document (or hundreds of documents) can be applied quickly and easily, by editing a few lines in the CSS file they use, rather than by changing markup in the documents.",
+        "user":"Bootstrap<br> Animate <br> Bluma <br> Hover" 
+    },
+    "C_Sharp":
+    {
+        "info":"Originally developed by Microsoft to run on their .NET framework, C#(pronounced C-sharp) is based on C and C++. Clearly, it’s main use these days is building Microsoft software.C# was originally designed to be easy to learn and use. Obviously that makes it a rather simple language to start with. It’s a high-level language, meaning that it reads a bit like English. However, it’s still not as high-level as Python, for example – and therefore not quite as easy for a beginner to learn.",
+        "user":".NET <br> Mono <br> Blazor"
+    },
+    "TypeScript":
+    {
+        "info":"TypeScript is an open-source programming language developed and maintained by Microsoft. It is designed for development of large applications and transpile to JavaScript.[4]As TypeScript is a superset of JavaScript, existing JavaScript programs are also valid TypeScript programs. TypeScript may be used to develop JavaScript applications for both client-side and server-side (Node.js) execution.",
+        "user":"Vscode <br> Angular <br> Ionic <br>"
+    }
+
+}

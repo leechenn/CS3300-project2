@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+	<meta charset="utf-8">
+	<!-- Google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+	<!-- D3 -->
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/queue.v1.min.js"></script>
+	<!-- jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Bootstrap 3 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<!-- Combobox script for the search box -->
+	<script src="js/bootstrap-combobox.js"></script>
+	<link href="css/bootstrap-combobox.css" type="text/css" rel="stylesheet">
+	<link href="css/fontawesome-all.css" type="text/css" rel="stylesheet">
+
+	<!-- Data -->
+	<script src="js/github_rank.js"></script>
+	<script src="js/data_entry.js"></script>
+	<!-- <script src="js/manipulate.js"></script> -->
+	<!-- <script src="js/start.js"></script> -->
+	<!-- <script src="js/issue.js"></script> -->
+	<!-- <script src="js/creation.js"></script> -->
+
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+
+<body>
+
+	<div class="chartWrapper">
+		<div id="cont" class="container-fluid">
+
+			<!-- Introduction -->
+			<div class="row" style="padding: 5px 0px;">
+
+					<div id="title" class="row" style="padding: 0px 50px;">
+						<div class="col-md-12 column text-center">
+							<h2 class="titles" style="font-weight: bold;">The 10 most popular programming language on Github</h2>
+						</div>
+
+				</div>
+				<div class="col-sm-7 column story">
+					<div class="row">
+						<div class="col-md-12 column" style="padding-top: 10px;">
+							<p><span style="font-size: 24px;" class="expl">This a common saying in today’s tech-driven world. Every industry is fundamentally changed by technology, and business leaders are making it the focal point of their companies.
+									GitHub is one of the largest code repositories in use today. Every year they create a Year in Review report, sharing statistics about their programmer community. We cite their metric “Issues” as another indicator of language popularity.
+							</span></p>
+							<p><span style="font-size: 24px;"class="expl">The chart below shows the top 10 programming language per year and per quater since 2012.
+							The data source is comming from Google Bigquery system
+							Use the smaller overview to change the starting and ending years in the bigger focus chart or switch between genders with the button.
+							</span></p>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="col-sm-4 column githubLink">
+					<div class="row">
+						 <p style="font-size: 24px;padding-top:10px">Discover More Programming Language From GitHub</p>
+					</div>
+
+					<div class="row">
+						  <a href="https://github.com/" title="GitHub" id="githubBtn" target="_blank"><i class="fab fa-github" ></i></a>
+					</div>
+
+
+				</div>
+			</div>
+
+			<hr>
+
+			<!-- Search box and Boy / Girl button -->
+			<div id="legend" class="row">
+
+				<div id="issueBtn" class="col-md-4" >
+					<div id="buttonWrapper" class="btn-group" data-toggle="buttons">
+						<label id="issueButton" class="btn btn-default active"><input type="radio" class="btn-options"> Issues </label>
+						<label id="startButton" class="btn btn-default"><input type="radio" class="btn-options"> Stars </label>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="col-md-6" style="text-align: center">
+						<span style="font-size: 11px">Color gives the first appearance time of the language</span>
+						<div class="colorLegend"></div>
+					</div>
+					<div class="col-md-6">
+						<span style="font-size: 11px;">Line thickness stands for the highest position ever reached by a language</span>
+						<div class="widthLegend"></div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<!-- Focus chart -->
+			<div class="row">
+				<div class="col-md-12 column text-center">
+					<div class="chart focus"></div>
+				</div>
+			</div>
+
+			<!-- Context chart -->
+			<div class="row">
+				<div class="col-md-12 column text-center">
+					<div class="chart context"></div>
+				</div>
+			</div>
+
+			<hr>
+
+			<!-- Interesting insights -->
+			<div class="row" style="padding-top: 0px; font-size: 24px;">
+				<div class="col-sm-11 column col-sm-offset-1", id = "language_name">
+				</div>
+				<div class="col-sm-5 column col-sm-offset-1", id = "introduction">
+				</div>
+				<div class="col-sm-5 column">
+					<h3 class="col-sm-11 column col-sm-offset-1" id = "usage">
+
+					</h3>
+					<p class="col-sm-5 column col-sm-offset-1" id="Description">
+
+					</p>
+				</div>
+			</div>
+
+			<hr>
+
+		</div>
+	</div>
+
+
+</body>
+</html>
